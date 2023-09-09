@@ -1,2 +1,3 @@
 # Java_learning
-For Java learning and code along/problems
+
+For Java learning and code along/problems to practice
