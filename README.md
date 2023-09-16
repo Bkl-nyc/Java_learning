@@ -1,4 +1,4 @@
 # Java_learning
 
 For Java learning and code along/problems to practice
--Function
+- Learning Functions 
