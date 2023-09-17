@@ -1,4 +1,5 @@
 # Java_learning
 
 For Java learning and code along/problems to practice
-- Learning Functions 
+- Learning Functions
+- Linear algebra applications
