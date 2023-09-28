@@ -12,6 +12,7 @@ For Java learning and code along/problems to practice
 - https://www.cs.cmu.edu/afs/cs.cmu.edu/user/gchen/www/download/java/LearnJava.pdf
 - https://www.youtube.com/watch?v=Ibjm2KHfymo
 - https://www.youtube.com/watch?v=j0lBrYSlYaU
+- Java book: https://github.com/ZoranLi/Books1/blob/master/Patterns%20of%20Enterprise%20Application%20Architecture.pdf
   
   
 
