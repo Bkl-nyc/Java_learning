@@ -1,5 +1,7 @@
 package package_main;
 
+import java.util.Date;
+
 public class Main { //main class
 
     //inside this class we have our main method
@@ -13,6 +15,12 @@ public class Main { //main class
         // float price = 10.99F; //You need to add f or F at the end or it automatically saves as a Double
         // boolean isEligible = true;
         // System.out.println("Hello World");
+
+        //reference types for storing complex variables like emails
+        byte age = 30;
+        Date now = new Date();
+        //now.getTime()
+
 
 
     }
