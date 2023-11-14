@@ -18,7 +18,7 @@ public class Main { //main class
 
         //reference types for storing complex variables like emails
         byte age = 30;
-        Date now = new Date();
+        Date now = new Date(); //reference type ex
         //now.getTime()
 
 
