@@ -1,6 +1,6 @@
 package package_main;
 
-import java.util.Date;
+import java.util.Date; //importing java.util package and Date class
 
 public class Main { //main class
 
@@ -18,8 +18,9 @@ public class Main { //main class
 
         //reference types for storing complex variables like emails
         byte age = 30;
-        Date now = new Date(); //reference type ex
-        //now.getTime()
+        Date now = new Date(); //reference type ex //now is an instance of the date class // Date is an instance of the date class //an object is an instance of a class
+        now.getTime()  //objects like now can now access members/methods of class ussing the dot operator.
+
 
 
 
