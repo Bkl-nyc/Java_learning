@@ -1,11 +1,13 @@
 package package_main;
 
+import java.awt.*;
 import java.util.Date; //importing java.util package and Date class
 
 public class Main { //main class
 
     //inside this class we have our main method
     public static void main(String[] args) { //main method
+
         //public means it is available from other parts of our program
         //main method always static
         // void mean not gonna return a value
@@ -17,10 +19,14 @@ public class Main { //main class
         // System.out.println("Hello World");
 
         //reference types for storing complex variables like emails
-        byte age = 30;
-        Date now = new Date(); //reference type ex //now is an instance of the date class // Date is an instance of the date class //an object is an instance of a class
-        now.getTime()  //objects like now can now access members/methods of class ussing the dot operator.
+        //byte age = 30;
+        // Date now = new Date(); //reference type ex //now is an instance of the date class // Date is an instance of the date class //an object is an instance of a class
+        // now.getTime()  //objects like now can now access members/methods of class using the dot operator.
+        // System.out.println(now); //sout tab make it automatically system.out.println.
 
+
+        Point point1 = new Point(x:1, y;1);
+=
 
 
 
