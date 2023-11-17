@@ -1,7 +1,7 @@
 package package_main;
 
 import java.awt.*;
-import java.util.Date; //importing java.util package and Date class
+// import java.util.Date; //importing java.util package and Date class
 
 public class Main { //main class
 
@@ -24,11 +24,12 @@ public class Main { //main class
         // now.getTime()  //objects like now can now access members/methods of class using the dot operator.
         // System.out.println(now); //sout tab make it automatically system.out.println.
 
-
-        Point point1 = new Point(x:1, y;1);
-=
-
-
+        //int x;
+        // int y;
+        //Point point1 = new Point(x=1, y=1);
+        //Point point2 = point1;
+        //Point1.x = 2;
+        //System.out.println(point2);
 
     }
 }
