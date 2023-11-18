@@ -31,5 +31,9 @@ public class Main { //main class
         //Point1.x = 2;
         //System.out.println(point2);
 
+        String message = "Hello World" + "!!";
+        System.out.println(message);
+        //message.endsWith("!!")
+
     }
 }
