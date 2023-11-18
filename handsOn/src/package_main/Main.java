@@ -1,6 +1,7 @@
 package package_main;
 
 import java.awt.*;
+import java.sql.SQLOutput;
 // import java.util.Date; //importing java.util package and Date class
 
 public class Main { //main class
@@ -33,7 +34,8 @@ public class Main { //main class
 
         String message = "Hello World" + "!!";
         System.out.println(message);
-        //message.endsWith("!!")
+        System.out.println(message.endsWith("!!"));
+        System.out.println(message.startsWith("!!"));
 
     }
 }
