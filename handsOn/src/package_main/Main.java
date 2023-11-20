@@ -32,12 +32,16 @@ public class Main { //main class
         //Point1.x = 2;
         //System.out.println(point2);
 
-        String message = "Hello World" + "!!";
+        String message = " Hello World" + "!!  ";
         System.out.println(message);
-        System.out.println(message.endsWith("!!"));
-        System.out.println(message.startsWith("!!"));
-        System.out.println(message.length());
-        System.out.println(message.indexOf("E"));
+        //System.out.println(message.endsWith("!!"));
+        //System.out.println(message.startsWith("!!"));
+        //System.out.println(message.length());
+        //System.out.println(message.indexOf("E"));
+        //System.out.println(message.indexOf("sky"));
+        System.out.println(message.replace( "!",  "*"));
+
+
 
     }
 }
