@@ -36,6 +36,8 @@ public class Main { //main class
         System.out.println(message);
         System.out.println(message.endsWith("!!"));
         System.out.println(message.startsWith("!!"));
+        System.out.println(message.length());
+        System.out.println(message.indexOf("E"));
 
     }
 }
