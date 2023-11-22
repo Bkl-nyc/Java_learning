@@ -32,16 +32,24 @@ public class Main { //main class
         //Point1.x = 2;
         //System.out.println(point2);
 
-        String message = " Hello World" + "!!  ";
-        System.out.println(message);
+        //String message = " Hello World" + "!!  ";
+        //System.out.println(message);
         //System.out.println(message.endsWith("!!"));
         //System.out.println(message.startsWith("!!"));
         //System.out.println(message.length());
         //System.out.println(message.indexOf("E"));
         //System.out.println(message.indexOf("sky"));
-        System.out.println(message.replace( "!",  "*"));
 
+        //System.out.println(message.replace( "!",  "*"));
+        //System.out.println(message.trim());
+        //System.out.println(message); //in Java strings are immutable, we can not mutate them, they are immutable
 
+        //Escape Sequences
+        //String message = "C:\nWindows\\..."; //new line
+        //String message = "C:\tWindows\\..."; //tab between  c drive and windows
+        //System.out.println(message);
 
+        //Arrays
+        int
     }
 }
