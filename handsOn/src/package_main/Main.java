@@ -50,6 +50,8 @@ public class Main { //main class
         //System.out.println(message);
 
         //Arrays
-        int
+        int[] numbers = { 2, 3. 5, 1, 4 };
+        System.out.println(numbers.length);
+        Arrays.sort
     }
 }
