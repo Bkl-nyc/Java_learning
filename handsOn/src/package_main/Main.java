@@ -2,6 +2,7 @@ package package_main;
 
 import java.awt.*;
 import java.sql.SQLOutput;
+import java.util.Arrays;
 // import java.util.Date; //importing java.util package and Date class
 
 public class Main { //main class
@@ -49,10 +50,20 @@ public class Main { //main class
         //String message = "C:\tWindows\\..."; //tab between  c drive and windows
         //System.out.println(message);
 
-        //Arrays
-        int[] numbers = { 2, 3. 5, 1, 4 };
-        System.out.println(numbers.length);
-        Arrays.sort
+        //Array old way
+        //int[] numbers = new int[5];
+        // numbers[0] = 1;
+        // numbers[1] = 2;
+        // numbers[10] = 3; wont work,its a exception
+        // Arrays.toString(numbers);//typing arrays automatically imports arrays //use the dot operator to access method class
+        // System.out.println(Arrays.toString(numbers)); //when java returns a string
+
+        //Array new way
+        int[] numbers  = { 2, 3, 5, 1, 4 };
+        Arrays.sort(numbers);
+        System.out.println(Arrays.toString(numbers));
+
+
 // 11/23 11/24
     }
 }
