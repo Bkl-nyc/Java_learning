@@ -60,15 +60,23 @@ public class Main { //main class
 
         //Array new way
         // int[] numbers  = { 2, 3, 5, 1, 4 };
-        // Arrays.sort(numbers);
+        // Arrays.sort(numbers); //sort numbers from 1 to 5
         // System.out.println(Arrays.toString(numbers));
 
         // Multi-dimensional arrays
+        // int[][] numbers = new int[2][3]; //two dimensional array two by three metrics 2 rows 3 columns
+        //  numbers[0][0] =1;
+        // System.out.println(Arrays.toString(numbers)); // you get a weird array because your dealing a multidimensional array
+        // System.out.println(Arrays.deepToString(numbers)); //deep to string used to print multi dimmensional arrats
 
-        int[][] numbers = new int[2][3]; //two by three matrics
-        numbers[0][0] =1;
-        System.out.println(Arrays.toString(numbers)); // you get a weird array because your dealing a multidimensional array
-        System.out.println(Arrays.deepToString(numbers));
-// 11/23 11/24
+        // Multidimensional arrays  three dimensions
+        int[][] numbers = {{1,2,3}, {4,5,6}};
+        System.out.println(Arrays.deepToString(numbers)); //three dimesional array
+
+
+
+
+
+
     }
 }
