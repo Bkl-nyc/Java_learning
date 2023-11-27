@@ -59,11 +59,16 @@ public class Main { //main class
         // System.out.println(Arrays.toString(numbers)); //when java returns a string
 
         //Array new way
-        int[] numbers  = { 2, 3, 5, 1, 4 };
-        Arrays.sort(numbers);
-        System.out.println(Arrays.toString(numbers));
+        // int[] numbers  = { 2, 3, 5, 1, 4 };
+        // Arrays.sort(numbers);
+        // System.out.println(Arrays.toString(numbers));
 
+        // Multi-dimensional arrays
 
+        int[][] numbers = new int[2][3]; //two by three matrics
+        numbers[0][0] =1;
+        System.out.println(Arrays.toString(numbers)); // you get a weird array because your dealing a multidimensional array
+        System.out.println(Arrays.deepToString(numbers));
 // 11/23 11/24
     }
 }
