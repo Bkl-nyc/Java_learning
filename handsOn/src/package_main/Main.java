@@ -61,17 +61,29 @@ public class Main { //main class
         //Array new way
         // int[] numbers  = { 2, 3, 5, 1, 4 };
         // Arrays.sort(numbers); //sort numbers from 1 to 5
-        // System.out.println(Arrays.toString(numbers));
+        // System.out.println(Arrays.toString(numbers)); //print 1,2,3,4,5
 
         // Multi-dimensional arrays
         // int[][] numbers = new int[2][3]; //two dimensional array two by three metrics 2 rows 3 columns
-        //  numbers[0][0] =1;
+        //  numbers[0][0] =1; //first row and first column
         // System.out.println(Arrays.toString(numbers)); // you get a weird array because your dealing a multidimensional array
-        // System.out.println(Arrays.deepToString(numbers)); //deep to string used to print multi dimmensional arrats
+        // System.out.println(Arrays.deepToString(numbers)); //deep to string used to print multi dimmensional arrays. Prints [[1,0,0], [0,0,0]] You can add third [] to make it three dimesional
 
         // Multidimensional arrays  three dimensions
-        int[][] numbers = {{1,2,3}, {4,5,6}};
-        System.out.println(Arrays.deepToString(numbers)); //three dimesional array
+        // int[][] numbers = {{1,2,3}, {4,5,6}};
+        // System.out.println(Arrays.deepToString(numbers)); //three dimesional array
+
+        //arithmetic expression
+        //double result = (double)10 / (double)3; //there needs to be a double infront of the variable because it double, int wont work
+        //System.out.println(result);
+
+        //int x =1;
+        // x++; and // ++x; pro fix and pre fix you get the same result which is 2
+        // System.out.println(x); result 2
+
+
+
+
 
 
 
