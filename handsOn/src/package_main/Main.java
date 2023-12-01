@@ -78,8 +78,75 @@ public class Main { //main class
         //System.out.println(result);
 
         //int x =1;
-        // x++; and // ++x; pro fix and pre fix you get the same result which is 2
+        // x++; and // ++x; pro fix and pre fix you get the same result which is 2, if you use this of right side operator you get different results
         // System.out.println(x); result 2
+
+        //int x = 1;
+        //int  y = ++x ; // increment operator first the value of x is going to be copied to y. Y will be one and then x will be incremented by 1.
+
+        //System.out.println(x); //result x will be two
+        //System.out.println(y); //result y will be one
+
+        //int x = 1;
+        //int y = ++x; // // first if we add this as  "++" as a prefix. First x is gonna be incremented by one and then it will be copied to y.
+        //System.out.println(x);  //So we get x=2
+        //System.out.println(y); //so we get y=2
+
+        // augmented or compound arithmatic operator
+        //int x = 1;
+        //x += 2; //same as x = x + 2; but shorter
+        // System.out.println(x);
+
+        //int x = 1;
+        //x -= 2; //same as x = x - 2; but shorter. Reduces the value by 2
+        // System.out.println(x);
+
+        //int x = 1;
+        //x *= 2; //same as x = x - 2; but shorter. multiplies the value by 2
+        // System.out.println(x);
+
+        //int x = 1;
+        //x /= 2; //same as x = x - 2; but shorter. divides the value by 2
+        // System.out.println(x);
+
+        //int x = 10 + 3 * 2;
+        //System.out.println(x);
+
+        // order of operations
+        // (), *,/, +,-
+
+        //casting
+        // implicit casting or// automatic casting
+        //short x = 1;
+        //int y = x + 2;
+       // System.out.println(y);
+
+        //implicit casting: happens when your not gonna lose data
+        //byte > short > int > long > float  > double
+        //double x = 1.1;
+        // int y = x + 2 // you will have a compilation error because y is a int znd x is double
+        //double y = x + 2; // In this Java will automatically cast 2 to 2.0  then 2.0 will be added to 1.1
+        //System.out.println(y);
+        double x = 2.1;
+        int y = (int)x + 2; //this is explicit casting, you convert x to a integer. explicit casting can happen only between compatible types
+        System.out.println(y);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -91,4 +158,5 @@ public class Main { //main class
 
 
     }
+
 }
