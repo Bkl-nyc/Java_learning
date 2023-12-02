@@ -124,22 +124,46 @@ public class Main { //main class
         //implicit casting: happens when your not gonna lose data
         //byte > short > int > long > float  > double
         //double x = 1.1;
-        // int y = x + 2 // you will have a compilation error because y is a int znd x is double
+        // int y = x + 2 // you will have a compilation error because y is a int znd x is double: skip this doesnt work
         //double y = x + 2; // In this Java will automatically cast 2 to 2.0  then 2.0 will be added to 1.1
         //System.out.println(y);
-        double x = 2.1;
-        int y = (int)x + 2; //this is explicit casting, you convert x to a integer. explicit casting can happen only between compatible types
-        System.out.println(y);
+        //double x = 2.1;
+        //int y = (int)x + 2; //this is explicit casting, you convert x to a integer. explicit casting can happen only between compatible types
+        //System.out.println(y);
 
+        //this is how you convert to a string to integer
+        //String x = "1";
+        //int y = Integer.parseInt(x) + 2; //converts x from a string to a integer
+        //System.out.println(y);  //this is important because if your building a user interface then you will get a value as a sting so it will covert it to its numeric expression
 
+        //converting doubles
+        //String x = "1.1";
+        //double y = Double.parseDouble(x) + 2;
+        //System.out.println(y);
 
+        //The math class: math.round
+        // int result = Math.round(1.1F); //rounds the float
+        // System.out.println(result); //you get 1.1
 
+        //math class: ciel method
+        //int result = (int) Math.ceil(1.1F); // Ceil of float 1.1 returns the smallest integer  that is greaten than or equal to that number. You will get a compile error because the ciel of 1.1 returns a double if int not added in-front of math method. But your storing the result in a integer. You need to store it in a integer.
+        //System.out.println(result); //returns 2
 
+        //math class:floor method
+        // int result = (int) Math.floor(1.1F); // Ceil of float 1.1 returns the smallest integer  that is less than or equal to that number. You will get a compiling error if you dnt add a int before math method because the floor of 1.1 returns a double. But your storing the result in a integer. You need to store it in a integer.
+        // System.out.println(result); //returns 1
 
+        //math class: random max
+        //int result = Math.max(1,3); //returns the max between 2 numbers
+        //System.out.println(result);
 
+        //math class: min class
+        //int result = Math.min(1,3); //returns the min between 2 numbers
+        //System.out.println(result);
 
-
-
+        //math class: random
+        //double result = Math.random(); //You will get compilation error if you use int because random method returns a double. So use double for it return a random decimal.
+        //System.out.println(result);
 
 
 
