@@ -163,7 +163,11 @@ public class Main { //main class
 
         //math class: random
         //double result = Math.random(); //You will get compilation error if you use int because random method returns a double. So use double for it return a random decimal.
-        //System.out.println(result);
+        //System.out.println(result); // result is a floating point number between 0 and 1
+
+        //math class: getting a random number between 0 and 100
+        double result = Math.random() * 100;
+        System.out.println(result); //
 
 
 
