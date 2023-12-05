@@ -2,6 +2,7 @@ package package_main;
 
 import java.awt.*;
 import java.sql.SQLOutput;
+import java.text.NumberFormat;
 import java.util.Arrays;
 // import java.util.Date; //importing java.util package and Date class
 
@@ -165,9 +166,32 @@ public class Main { //main class
         //double result = Math.random(); //You will get compilation error if you use int because random method returns a double. So use double for it return a random decimal.
         //System.out.println(result); // result is a floating point number between 0 and 1
 
-        //math class: getting a random number between 0 and 100
-        double result = Math.random() * 100;
-        System.out.println(result); //
+        //math class: getting a random number  as a double between 0 and 100
+        //double result = Math.random() * 100;
+        //System.out.println(result);
+
+        //Math class: as a whole number
+        // int result = (int) (Math.random() *100);
+        // System.out.println(result);
+
+
+        //format class .
+        //NumberFormat currency = NumberFormat.getCurrencyInstance();
+        //String result = currency.format(123456.921);
+        //System.out.println(result);
+
+        NumberFormat.getPercentInstance();
+        String result = Percent.format(0.1);
+
+
+
+
+
+
+
+
+
+
 
 
 
