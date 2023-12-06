@@ -180,8 +180,12 @@ public class Main { //main class
         //String result = currency.format(123456.921);
         //System.out.println(result);
 
-        NumberFormat.getPercentInstance();
-        String result = Percent.format(0.1);
+        //NumberFormat percent = NumberFormat.getPercentInstance();
+        //String result = percent.format(0.1);
+        //System.out.println(result);
+        //
+
+
 
 
 
