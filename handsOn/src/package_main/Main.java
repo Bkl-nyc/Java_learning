@@ -4,6 +4,7 @@ import java.awt.*;
 import java.sql.SQLOutput;
 import java.text.NumberFormat;
 import java.util.Arrays;
+import java.util.Scanner;
 // import java.util.Date; //importing java.util package and Date class
 
 public class Main { //main class
@@ -183,7 +184,33 @@ public class Main { //main class
         //NumberFormat percent = NumberFormat.getPercentInstance();
         //String result = percent.format(0.1);
         //System.out.println(result);
-        //
+
+        //method chaining
+        //String result = NumberFormat.getCurrencyInstance().format(0.1); //shorten the expression by chaining methods
+        //System.out.println(result);
+
+        // Reading Input
+        // Scanner scanner = new Scanner(System.in);
+        //System.out.println("Age: "); prints on the same line to fix this use print
+        // System.out.print("Age: ");
+        // byte age = scanner.nextByte();
+        // System.out.println("You are " + age); // concatinating the string with a byte
+
+        //Scanner scanner = new Scanner(System.in);
+        //System.out.print("Name: ");
+        //String name = scanner.nextLine(); //this store whatever the next line the user inputs
+        //String name = scanner.nextLine().trim();  // this trims if the user decides to use a lot of spaces.
+        //System.out.println("You are " + name);
+
+
+        //Math.Pow
+        // Annual interest rate:
+
+        // Math.pow
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please insert the principal: ");
+        String principal =
+
 
 
 
