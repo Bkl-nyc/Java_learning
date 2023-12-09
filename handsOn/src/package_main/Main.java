@@ -207,9 +207,19 @@ public class Main { //main class
         // Annual interest rate:
 
         // Math.pow
+
+
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Please insert the principal: ");
-        String principal =
+        //System.out.print("What is the interest rate of this number? "); prints on the same line to fix this use print
+        System.out.print("Annual_interest rate: ");
+        double annual_interest_rate = scanner.nextDouble();
+        System.out.println("You are " + annual_interest_rate);
+
+        double percent_interest_rate = (annual_interest_rate) / 100;
+        System.out.println(percent_interest_rate);
+
+
+
 
 
 
