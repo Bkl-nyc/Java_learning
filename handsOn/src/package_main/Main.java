@@ -207,16 +207,53 @@ public class Main { //main class
         // Annual interest rate:
 
         // Math.pow
-
-
         Scanner scanner = new Scanner(System.in);
+        System.out.print("Principal: ");
+        int principal = scanner.nextInt();
+        System.out.println("You are " + principal);
+        System.out.println(principal);
+
+
+        Scanner air_scanner = new Scanner(System.in);
         //System.out.print("What is the interest rate of this number? "); prints on the same line to fix this use print
         System.out.print("Annual_interest rate: ");
-        double annual_interest_rate = scanner.nextDouble();
+        double annual_interest_rate = air_scanner.nextDouble();
         System.out.println("You are " + annual_interest_rate);
 
         double percent_interest_rate = (annual_interest_rate) / 100;
         System.out.println(percent_interest_rate);
+
+        Scanner period_scanner = new Scanner(System.in);
+        System.out.print("Period: ");
+        double period = period_scanner.nextDouble();
+        System.out.println("You are " + period);
+
+        double years_in_months = period * 12;
+        System.out.println("years in monnths in:" + years_in_months);
+
+        double plus_one = percent_interest_rate + 1;
+        double m_pow = Math.pow(plus_one,years_in_months);
+        System.out.println(m_pow);
+
+        double mortgage = (principal) * (m_pow * percent_interest_rate);
+        System.out.println(mortgage);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
