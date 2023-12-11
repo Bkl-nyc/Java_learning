@@ -220,7 +220,7 @@ public class Main { //main class
         double annual_interest_rate = air_scanner.nextDouble();
         System.out.println("You are " + annual_interest_rate);
 
-        double percent_interest_rate = (annual_interest_rate) / 100;
+        double percent_interest_rate = (annual_interest_rate) / (12) / (100); //divide bvy twilve because your trying to get monthly mortgage. ANd then divide by 100 to get the percent version.
         System.out.println(percent_interest_rate);
 
         Scanner period_scanner = new Scanner(System.in);
@@ -235,8 +235,11 @@ public class Main { //main class
         double m_pow = Math.pow(plus_one,years_in_months);
         System.out.println(m_pow);
 
-        double mortgage = (principal) * (m_pow * percent_interest_rate);
-        System.out.println(mortgage);
+        double mortgage = (principal) * (m_pow * percent_interest_rate)/(m_pow -1);
+        String mortgageFormatted = NumberFormat.getCurrencyInstance().format(mortgage); // store mortgage
+        System.out.println("Your monthly mortgage is: " + mortgageFormatted);
+
+
 
 
 
