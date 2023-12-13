@@ -244,7 +244,7 @@ public class Main { //main class
 //            System.out.println(isWarm);
             boolean hasHighIncome = true;
             boolean hasGoodCredit = true;
-            boolean isELgible = hasHighIncome || hasGoodCredit;
+            boolean isELgible = hasHighIncome || hasGoodCredit; //true is
 
 
 
