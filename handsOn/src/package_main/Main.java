@@ -246,6 +246,8 @@ public class Main { //main class
             boolean hasGoodCredit = true;
             boolean isELgible = hasHighIncome || hasGoodCredit; //true is
 
+        //12/16
+
 
 
 
