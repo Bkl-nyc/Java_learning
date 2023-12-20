@@ -242,66 +242,60 @@ public class Main { //main class
 //            int temperature = 22;
 //            boolean isWarm = temperature > 20 && temperature < 30;
 //            System.out.println(isWarm);
-            boolean hasHighIncome = true;
-            boolean hasGoodCredit = true;
-            boolean isELgible = hasHighIncome || hasGoodCredit; //true is
-
+//            boolean hasHighIncome = false;
+//            boolean hasGoodCredit = true;
+//            boolean hasCriminalRecord = false;
+//            boolean isELgible = (hasHighIncome || hasGoodCredit) && !hasCriminalRecord;
+//            //true is
+//        System.out.println(isELgible);
         // finish java soon
 
         //12/16
         //12/17
+        //12/18
+//        int temp = 30;
+//        if (temp > 30) {
+//            System.out.println("Its hot day boi");
+//            System.out.println("Drink water");
+//        }
+//        else if (temp >20  //&& temp <= 30 not needed
+//            System.out.println("Beutiful Day");
+//        else
+//            System.out.println("Cold Day");
+        //amatuer if statement
 
+//        int income = 120_000;
+//        boolean hasHighIncome;
+//
+//        if (income > 100_000) { // boolean variables need to declared first to be called inside if statements
+//            hasHighIncome = true;
+//        }
+//        else
+//            hasHighIncome = false;
+//
+//        System.out.println(hasHighIncome);
 
+//        int income = 120_000;
+//        boolean hasHighIncome = false; // with else clause no longer needed.
+//
+//        if (income > 100_000) { // boolean variables need to declared first to be called inside if statements
+//            hasHighIncome = true;
+//
+//        }
+//        System.out.println(hasHighIncome);
 
+       //most efficient code to do the code above
+        int income = 120_000;
+        boolean hasHighIncome = (income > 100_000); // paranthesis not needed but makes code more readable
+        System.out.println(hasHighIncome);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        //very amatuer code
+        int income = 120_000;
+        String className;
+        if (income >100_000)
+            className = "First";
+        else
+            className = "Economy";
 
 
 
