@@ -285,17 +285,24 @@ public class Main { //main class
 //        System.out.println(hasHighIncome);
 
        //most efficient code to do the code above
-        int income = 120_000;
-        boolean hasHighIncome = (income > 100_000); // paranthesis not needed but makes code more readable
-        System.out.println(hasHighIncome);
+//        int income = 120_000;
+//        boolean hasHighIncome = (income > 100_000); // paranthesis not needed but makes code more readable
+//        System.out.println(hasHighIncome);
+//
+//        //very amatuer code
+//        int income = 120_000;
+//        String className;
+//        if (income >100_000)
+//            className = "First";
+//        else
+//            className = "Economy";
 
-        //very amatuer code
-        int income = 120_000;
-        String className;
-        if (income >100_000)
-            className = "First";
-        else
-            className = "Economy";
+//        //real code: Ternary operator
+//        int income = 120_000;
+//        String classname = income > 100_000 ? "First" : "Economy";
+//        System.out.println(classname);
+
+
 
 
 
