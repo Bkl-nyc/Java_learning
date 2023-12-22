@@ -121,7 +121,7 @@ public class Main { //main class
         // implicit casting or// automatic casting
         //short x = 1;
         //int y = x + 2;
-       // System.out.println(y);
+        // System.out.println(y);
 
         //implicit casting: happens when your not gonna lose data
         //byte > short > int > long > float  > double
@@ -284,7 +284,7 @@ public class Main { //main class
 //        }
 //        System.out.println(hasHighIncome);
 
-       //most efficient code to do the code above
+        //most efficient code to do the code above
 //        int income = 120_000;
 //        boolean hasHighIncome = (income > 100_000); // paranthesis not needed but makes code more readable
 //        System.out.println(hasHighIncome);
@@ -301,6 +301,101 @@ public class Main { //main class
 //        int income = 120_000;
 //        String classname = income > 100_000 ? "First" : "Economy";
 //        System.out.println(classname);
+
+//        String role = "admin";
+//
+//        switch (role){
+//              case "admin";
+//            System.out.println("Your an admin");
+//            break;
+//
+//            case "moderator":
+//                System.out.println("You're a moderator");
+//                break;
+//
+//            default:
+//                System.out.println("You're a guest");
+//    }
+
+        //Previous switch statement with int instead of strong
+//        int role = "admin";
+//
+//        switch (role) {
+//            case 1;
+//            System.out.println("Your an admin");
+//            break;
+//
+//            case "2":
+//                System.out.println("You're a moderator");
+//                break;
+//
+//            default:
+//                System.out.println("You're a guest");
+//        }
+
+//        previous switch statement as if statement
+//        String role = "admin"";
+//        if (role == "admin")
+//            System.out.println("You're an admin");
+//        else if (role == "moderator")
+//            System.out.println("You're a moderator");
+//        else
+//            System.out.println("You're a guest");
+
+
+        //Fizz buzz
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print("Number: ");
+//        int number = scanner.nextInt();
+//        if (number % 5 == 0 && number % 3 == 0) // this has to be first in order other wise fizz or buzz will be printed
+//            System.out.println("FizzBuzz");
+//        else if (0 == number % 5)
+//            System.out.println("Fizz");
+//        else if (0 == number % 3)
+//            System.out.println("Buzz");
+//        else
+//            System.out.println(number);
+
+//      Another way to do fizz buzz
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print("Number: ");
+//        int number = scanner.nextInt();
+//        if (number % 5 == 0) // this has to be first in order other wise fizz or buzz will be printed
+//            if (number % 3 == 0)
+//                System.out.println("FizzBuzz");
+//            else
+//                System.out.println("Fizz");
+//        else if (0 == number % 5)
+//            System.out.println("Fizz");
+//        else if (0 == number % 3)
+//            System.out.println("Buzz");
+//        else
+//            System.out.println(number);
+
+        //For loops
+//        for (int i = 0; i <= 5; i++)
+//            System.out.println("Hello World");
+
+//        for (int i = 1; i <= 5; i++)
+//            System.out.println("Hello World " + i);
+
+        //reverse  order : decrementing
+//        for (int i = 5; i > 0; i--)
+//            System.out.println("Hello world " + i);
+        int i = 0;
+        while (i > 0){
+            System.out.println("Hello World" + i);
+            i--;
+        }
+
+
+
+
+
+
+
+
+
 
 
 
