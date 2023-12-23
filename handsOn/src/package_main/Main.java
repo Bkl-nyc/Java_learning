@@ -381,28 +381,92 @@ public class Main { //main class
 
         //reverse  order : decrementing
 //        for (int i = 5; i > 0; i--)
-//            System.out.println("Hello world " + i);
-        int i = 0;
-        while (i > 0){
-            System.out.println("Hello World" + i);
-            i--;
-        }
+//            System.out.println("Hello world " + i)
+        //Same statement but as a while loop
+//        int i = 5;
+//        while (i > 0) {
+//            System.out.println("Hello World " + i);
+//            i--;
+//
+//        }
+
+        //for loops are better in situations where we know how many time we want to execute a statement
+        // While lopps are better for when we dnt know how many time we are going to repeat a statement
+
+        // Thiss program run until  quit is inputed
+//    Scanner scanner = new Scanner(System.in);
+//    String input = "";
+//    while (!input.equals("quit")){
+//        System.out.print("Input: ");
+//        input = scanner.next().toLowerCase();
+//        System.out.println(input);
+//    }
+//
+//    //While loops wont exexute if the conditions are. While, do while loops gets executed atleast once and the condition is checked last
+//    do {
+//        System.out.print("Input: ");
+//        input = scanner.next().toLowerCase();
+//        System.out.println(input);
+//        } while (!input.equals("quit"));
+
+//        // this doesnt print quit back after inputing quit
+//        Scanner scanner = new Scanner(System.in);
+//        String input = "";
+//        while (!input.equals("quit")){
+//            System.out.print("Input: ");
+//            input = scanner.next().toLowerCase();
+//            if (!input.equals("quit")) //if this condition is true then we will print the input
+//                System.out.println(input);
+//        }
+        //break statements
+//        Scanner scanner = new Scanner(System.in);
+//        String input = "";
+//        while (!input.equals("quit")){
+//            System.out.print("Input: ");
+//            input = scanner.next().toLowerCase();
+//            if (input.equals("quit")) //if this condition is true then it will ignore everything else after
+//                break;
+//            System.out.println(input);
+//        }
+
+        //while using true in a while loop, you have to use break and sometimes continue
+//        Scanner scanner = new Scanner(System.in);
+//        String input = "";
+//        while (true){
+//            System.out.print("Input: ");
+//            input = scanner.next().toLowerCase();
+//            if (input.equals("pass"))
+//                continue;
+//            if (input.equals("quit"))
+//                break;  //if this condition is true then we will print the input
+//            System.out.println(input);
+//        }
+// In conlusion a break statement terminates a loop and continue statement moves controll to the begining of a loop. True makes the statement true continue untill the user quits. If using true make sure to use a break statement or else it loops for infinite
+
+        //for each loop
+                String[] fruits = { "Apple", "Mango", "Orange" };
 
 
+//                for (int i = 0; i < fruits.length; i++)
+//                    System.out.println(fruits[i]);
 
+                //exact same result as before but with for each loop
 
+//                for (String fruit : fruits)
+//                    System.out.println(fruit); //same exact thing
 
+                    for (int i = fruits.length; i > 0; i--){
+                        System.out.println(fruits[i - 1]);
 
-
-
-
-
-
+                    }
+                    for (String fruit : fruits)
+                        System.out.println(fruit); //same exact thing
 
 
 
 
 
     }
-
 }
+
+
