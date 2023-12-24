@@ -460,8 +460,11 @@ public class Main { //main class
 
                     }
                     for (String fruit : fruits)
-                        System.out.println(fruit); //same exact thing
+                        System.out.println(fruit);
 
+
+                    //same exact thing
+                    //12/23 exercise
 
 
 
